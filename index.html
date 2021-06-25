@@ -1,0 +1,134 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Coding Giraffe</title>
+</head>
+
+<body class="home-page">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo-coding-giraffe.svg" alt="" width="30" height="24" class="d-inline-block">
+                coding giraffe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse position-relative" id="navbarNav">
+                <ul class="navbar-nav position-absolute end-0">
+                    <li class="header-btn">
+                        <button class="">Problems</button>
+                    </li>
+                    <li class="header-btn">
+                        <button class="header-btn">Tutorial</button>
+                    </li>
+                    <li class="header-btn">
+                       <button class="header-btn">About Us</button>
+                    </li>
+                    <li class="login-btn header-btn">
+                        <a>Login</a>
+                    </li>
+                    <li class="header-btn signup-btn">
+                        <a>Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <div class="row jumbotron-home">
+            <div class="jh-1">
+                <div class="hero-welcome">
+                    <p>Hello<img id="wave-hello" src="assets/images/wave-hello.svg">, <br />Welcome to <span style="font-family: 'Nexa Bold';">coding giraffe</span></p>
+                </div>
+                <div class="hero-header">
+                    <h1>
+                        Learn Math <br /> through coding.
+                    </h1>
+                    <p class="hero-header-tagline">A child can learn without Tutors....</p>
+                    <p class="hero-header-buttons">
+                        <a href="#"><button>Try it Out</button></a>
+                        <a href="#"><button>Learn More</button></a>
+                    </p>
+                </div>
+                <div class="hero-quote">
+                    <p>"Every one should know how to program a computer, <br /> because it teaches you to think.!" <br /> <br />
+                        <span>~ Steve Jobs</span>
+                    </p>
+                </div>
+            </div>
+            <div class="jh-2">
+                <p class="hero-illustration">
+                    <img class="hero-illustration-nonhover" src="assets/images/coding-giraffe-home-illustration.svg">
+                    <img class="hero-illustration-hover" src="assets/images/coding-giraffe-home-illustration-hover.svg">
+                </p>
+            </div>
+        </div>
+        <section class="row">
+            <h2 class="code-editor-heading">Try Here</h2>
+            <div class="code-editor">
+                <div class="code-problem">
+                    <p>Problem</p>
+                    <img src="assets/images/refresh-problem.png">
+                </div>
+                <div class="row code-answer">
+                    <div class="col-md-6">
+                        <h2>Input</h2>
+                        <a href="#"><button class="btn btn-run">Run</button></a>
+                        <a href="#"><button class="btn btn-reset">Reset</button></a>
+                        <a href="#"><button class="btn btn-clear">Clear</button></a>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Output</h2>
+                        <a href="#"><button class="btn btn-clear">Clear</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row home-features">
+            <h2 class="text-center">Features for all skil levels</h2>
+            <div class="col-md-3">
+                <img src="assets/images/browser-ide.svg">
+                <h6>In-browser IDE</h6>
+                <p>Star coding with python <br /> language on any platform, <br /> OS, and device</p>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/images/python-icon.svg">
+                <h6>Python</h6>
+                <p>Python language the most <br /> advanced language to write <br /> clean code. You can create <br /> anything with this language.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/images/learing-resources-icon.svg">
+                <h6>Learning Resources</h6>
+                <p>Learn how to code from <br /> our resources. It is for <br /> passionate programmers, <br /> technologists, creatives, and <br /> learners of all kinds.</p>
+            </div>
+        </section>
+        <section class="home-newsletter">
+            <div class="row align-items-center" style="height: 100%;">
+                <div class="col-md-8 mx-auto text-center">
+                    <p class="h1">Get Started in seconds</p>
+                    <p class="h3">It's completely free.</p>
+                    <a class="" href="#"><button>&#60;&#62;Start Coding</button></a>
+                </div>
+            </div>
+        </section>
+        <div class="row align-items-center" style="height: 150px;">
+                <div class="col-md-8 mx-auto text-center home-footer">
+                    <p class="h3">Subscribe to our newsletter</p>
+                    <input type="email" placeholder="enter your email here"><a href="#"><button>Subscribe</button></a>
+                    <p><br /><br />Copyright &#169; 2020 <span>coding giraffe</span> All rights reserved.</p>
+                </div>
+            </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body></html>
